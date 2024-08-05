@@ -1,58 +1,17 @@
-# Spam-Email-and-Url-Detection-Using-Machine-Learning
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-Detection of spam emails and spam urls by classification with machine learning
-
-## Getting Started
-
-The data sets used in the project were taken from the addresses below
-
-- Spam Email Data Set ➡️ https://www.kaggle.com/mfaisalqureshi/spam-email?select=spam.csv
-- Spam Url Data Set ➡️ https://www.kaggle.com/shivamb/spam-url-prediction
-
-Thank you to the friends who provided these datasets.
-
-## Dataset 
-
-* This dataset (spam.csv) contains a total of ```5572 data```.  There are ```%83 safe and %17 spam```.
-* This dataset (url_spam_classification.csv) contains a total of ```148.303 data```.  There are ```%68 safe and %32 spam```.
+step 1: Define the Research Objectives
+To developed a machine learning model for spam email detection that can effectively classify emails into "spam" or "non-spam" categories.
+Step 2: Data Collection 
+To gathered a comprehensive and labeled dataset of emails that includes both spam and non-spam emails for training and testing the model.
+Step 3: Model Development and Training
+To selected and implement appropriate machine learning algorithms  for email classification which ensures the accuracy of the spam email detection system.
+Step 4: Evaluation and Validation
+To conducted a qualitative analysis of misclassified emails to understand the model's strengths and weaknesses.
+Step 5: Deployment and Practical Application
+To created a user-friendly Python application or service for real-time spam email detection. To assess the model's performance in a real-world context, including its ability to adapt to new types of spam emails and its impact on reducing spam in an email system.
 
 
-## Classification
-
-Classification algorithms used for spam email detection :
-```
-* Decision Tree
-* K-Nearest Neighbors
-* Random Forest
-* Support Vector Machine
-```
-
-Classification algorithms used for spam url detection :
-```
-* Decision Tree
-* Stochastic Gradient Descent
-* Multinomial Naive Bayes
-* Linear Support Vector
-```
-
-## Spam Email Results
-```
-The Success Rate was calculated as % : 93.89806173725772 with the K-Nearest-Neighbors
-The Success Rate was calculated as % : 97.05671213208902 with Random Forest
-The Success Rate was calculated as % : 96.76956209619526 with Decision Tree
-The Success Rate was calculated as % : 97.98994974874373 with Support Vector Machine
-```
 
 
-## Spam Url Results
-```
-The Success Rate was calculated as % : 98.80245981227749 with Decision Tree
-The Success Rate was calculated as % : 98.52465206602655 with LinearSVC
-The Success Rate was calculated as % : 95.27457115114899 with Stochastic Gradient Descent
-The Success Rate was calculated as % : 91.10206063221491 with Multinomial Naive Bayes
-```
+
 
 
